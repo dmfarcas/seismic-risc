@@ -13,6 +13,11 @@
     "typeface-titillium-web": "0.0.72",
     "typescript": "^3.8.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
@@ -38,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "precise-commits": "^1.0.2",
     "@babel/core": "^7.8.4",
     "@lingui/babel-preset-react": "^2.9.1",
     "@lingui/cli": "^2.9.1",
