@@ -27,7 +27,7 @@ const App = () => {
           <Route exact path="/">
             <Home
               language={language}
-              languageChangeCallback={languageChangeCallback}
+                      languageChangeCallback={languageChangeCallback}
             />
           </Route>
           <Route path="/blog">

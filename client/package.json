@@ -25,7 +25,9 @@
     "eject": "react-app-rewired eject",
     "add-locale": "lingui add-locale",
     "extract": "lingui extract",
-    "compile": "lingui compile"
+    "compile": "lingui compile",
+    "precise-commits": "precise-commits",
+    "precommit": "npm run precise-commits"
   },
   "eslintConfig": {
     "extends": "react-app"
