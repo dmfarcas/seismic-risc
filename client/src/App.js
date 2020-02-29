@@ -23,7 +23,7 @@ const App = () => {
   return (
     <I18nProvider language={language} catalogs={catalogs}>
       <Router>
-        <Switch>
+                                  <Switch>
           <Route exact path="/">
             <Home
               language={language}
